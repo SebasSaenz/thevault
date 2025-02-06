@@ -1,4 +1,5 @@
 ﻿Book,Tag,Description,Author,Date
 Thinking Like a Phage,Phages,"The book presents a comprehensive yet accessible look at phages, blending humor and scientific depth to explain their life cycles, ecological roles, and potential applications.",Merry Youle,2017
 "<a href=""https://r4ds.hadley.nz"">R for Data Science</a>",R,"This book will teach you how to do data science with R: You’ll learn how to get your data into R, get it into the most useful structure, transform it and visualize.","Çetinkaya-Rundel, and Garrett Grolemund",
-Brock Biology of Microorganisms,Microbiology,"It provides an in-depth exploration of microbial structure, physiology, genetics, ecology, and evolution, as well as their roles in health, disease, and biotechnology. ",,
+Brock Biology of Microorganisms,Microbiology,"It provides an in-depth exploration of microbial structure, physiology, genetics, ecology, and evolution, as well as their roles in health, disease, and biotechnology. ",Bruno Rodrigues,2023
+"<a href=""https://r4ds.hadley.nz"">Building reproducible analytical pipelines with R</a>",R,"How using a few ideas from software engineering can help data scientists, analysts and researchers write reliable code",,

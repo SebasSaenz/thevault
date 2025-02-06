@@ -2,11 +2,6 @@
 title: "TheVault"
 ---
 
+The Vault is a repository containing a list of bioinformatic tools and scientific books.
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+![](image/vault.webp){fig-align="center" width="300"}

@@ -1,17 +1,17 @@
 Tool,Tag,Description,Repository,Paper
-Blast+,Aligment,,,
-Spades,Assembly,,,
-MEGAHIT,Assembly,,,
-MetaWrap,Bining,,,
-ComeBin,Bining,,,
-SeminBin2,Bining,,,
-MetaBat2,Bining,,,
+Blast+,Aligment,"It provides a suite of command-line tools to run BLAST. This allows users to perform BLAST searches on their own server without size, volume and database restrictions.","<a href=""https://www.ncbi.nlm.nih.gov/books/NBK279690/"">NCBI</a>","<a href=""https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-421"">BMC Bioinformatics</a>"
+Spades,Assembly,"It is a versatile toolkit designed for assembly and analysis of sequencing data. SPAdes is primarily developed for Illumina sequencing data, but can be used for IonTorrent as well.","<a href=""https://github.com/ablab/spades"">GitHub</a>","<a href=""https://currentprotocols.onlinelibrary.wiley.com/doi/full/10.1002/cpbi.102"">Current Protocols</a>"
+MEGAHIT,Assembly,"It is an ultra-fast and memory-efficient NGS assembler. It is optimized for metagenomes, but also works well on generic single genome assembly and single-cell assembly.","<a href=""https://github.com/voutcn/megahit"">GitHub</a>","<a href=""https://academic.oup.com/bioinformatics/article/31/10/1674/177884?login=true"">Bioinformatics</a>"
+MetaWrap,Bining,"It is an easy-to-use metagenomic wrapper suite that accomplishes the core tasks of metagenomic analysis from start to finish: read quality control, assembly, visualization, taxonomic profiling, extracting draft genomes, and functional annotation.","<a href=""https://github.com/bxlab/metaWRAP"">GitHub</a>","<a href=""https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0541-1"">Microbiome</a>"
+ComeBin,Bining,Effective binning of metagenomic contigs using contrastive multi-view representation learning,"<a href=""https://github.com/ziyewang/COMEBin"">GitHub</a>","<a href=""https://www.nature.com/articles/s41467-023-44290-z"">Nature Comunications</a>"
+SeminBin2,Bining,"It is a command tool for metagenomic binning with deep learning, handles both short and long reads.","<a href=""https://github.com/BigDataBiology/SemiBin"">GitHub</a>","<a href=""https://academic.oup.com/bioinformatics/article/39/Supplement_1/i21/7210480"">Bioinformatics</a>"
+MetaBat2,Bining,It is a robust statistical framework for reconstructing genomes from metagenomic data,"<a href=""https://bitbucket.org/berkeleylab/metabat/src/master/"">Bitbucket</a>","<a href=""https://pmc.ncbi.nlm.nih.gov/articles/PMC6662567/"">PeerJ</a>"
 DASTool,Bining integration,"It is an automated method that integrates the results of a flexible number of binning algorithms to calculate an optimized, non-redundant set of bins from a single assembly","<a href=""https://github.com/cmks/DAS_Tool"">GitHub</a>","<a href=""https://www.nature.com/articles/s41564-018-0171-1"">Nature Microbiology</a>"
-dRep,Clustering,,,
-CD-HIT,Clustering,,,
-CRISPRCasTyper,CRISPR-Cas annotation,,,
-PADLOC,Defence system annotation,,,
-DefenseFinder,Defence system annotation,The tool annotates DS and anti-DS,https://github.com/mdmparis/defense-finder,https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae1171/7919512?utm_source=advanceaccess&utm_campaign=nar&utm_medium=email&login=true
+dRep,Clustering,"It compares and ""de-replicate"" a genome set by identifying groups of highly similar genomes and choosing the best representative genome for each genome set.","<a href=""https://github.com/MrOlm/drep"">GitHub</a>","<a href=""https://academic.oup.com/ismej/article/11/12/2864/7537826?login=true"">ISME</a>"
+CD-HIT,Clustering,It is a program for clustering biological sequences to reduce sequence redundancy and improve the performance of other sequence analyses.,"<a href=""https://github.com/weizhongli/cdhit"">GitHub</a>","<a href=""https://academic.oup.com/bioinformatics/article/28/23/3150/192160"">Bioinformatics</a>"
+CRISPRCasTyper,CRISPR-Cas annotation,"Detect CRISPR-Cas genes and arrays, and predict the subtype based on both Cas genes and CRISPR repeat sequence.","<a href=""https://github.com/Russel88/CRISPRCasTyper"">GitHub</a>","<a href=""https://www.liebertpub.com/doi/10.1089/crispr.2020.0059"">The CRISPR journal</a>"
+PADLOC,Defence system annotation,It is a software tool for identifying antiviral defence systems in prokaryotic genomes.,"<a href=""https://github.com/padlocbio/padloc"">GitHub</a>","<a href=""https://academic.oup.com/nar/article/49/19/10868/6381132?login=true"">Nucleic Acid Research</a>"
+DefenseFinder,Defence system annotation,It is a software tool for identifying antiviral defence systems and anti-defence in prokaryotic genomes and viral genomes.,"<a href=""https://github.com/mdmparis/defense-finder"">GitHub</a>","<a href=""https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae1171/7919512?utm_source=advanceaccess&utm_campaign=nar&utm_medium=email&login=true"">Nature Comunications</a>"
 Nonpareil,Diversity,,,
 METABOLIC,functional annotation,,,
 DRAM,functional annotation,,,
@@ -29,3 +29,4 @@ Kaiju,Taxonomy,,,
 GTDB-tk,Taxonomy,,,
 GVClass,Taxonomy,Assigns taxonomy to putative giant virus contigs or metagenome assembled genomes,https://github.com/NeLLi-team/gvclass,
 Kraken,,,,
+Vclust,Clustering,It is an alignment-based tool for fast and accurate calculation of Average Nucleotide Identity (ANI) between complete or metagenomically-assembled viral genomes,"<a href=""https://github.com/refresh-bio/vclust"">GitHub</a>","<a href=""https://www.biorxiv.org/content/10.1101/2024.06.27.601020v1"">BioRxiv</a>"
