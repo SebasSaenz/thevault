@@ -2,14 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://SebasSaenz.github.io/thevault/books.html</loc>
-    <lastmod>2025-02-06T08:19:34.160Z</lastmod>
+    <lastmod>2025-02-09T13:40:51.875Z</lastmod>
+  </url>
+  <url>
+    <loc>https://SebasSaenz.github.io/thevault/metaproteomics.html</loc>
+    <lastmod>2025-02-09T13:40:52.141Z</lastmod>
   </url>
   <url>
     <loc>https://SebasSaenz.github.io/thevault/index.html</loc>
-    <lastmod>2025-02-06T08:19:34.441Z</lastmod>
+    <lastmod>2025-02-09T13:40:52.406Z</lastmod>
   </url>
   <url>
-    <loc>https://SebasSaenz.github.io/thevault/bioinformatics.html</loc>
-    <lastmod>2025-02-06T08:19:35.632Z</lastmod>
+    <loc>https://SebasSaenz.github.io/thevault/metagenomics.html</loc>
+    <lastmod>2025-02-09T13:40:53.577Z</lastmod>
+  </url>
+  <url>
+    <loc>https://SebasSaenz.github.io/thevault/R.html</loc>
+    <lastmod>2025-02-09T13:40:53.843Z</lastmod>
+  </url>
+  <url>
+    <loc>https://SebasSaenz.github.io/thevault/genomics.html</loc>
+    <lastmod>2025-02-09T13:40:54.105Z</lastmod>
+  </url>
+  <url>
+    <loc>https://SebasSaenz.github.io/thevault/amplicons.html</loc>
+    <lastmod>2025-02-09T13:40:54.365Z</lastmod>
   </url>
 </urlset>

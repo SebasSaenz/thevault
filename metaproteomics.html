@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>TheVault - Bioinformatics</title>
+<title>The Vault - Metaproteomics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -59,17 +59,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
-<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
-<script src="site_libs/datatables-binding-0.33/datatables.js"></script>
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
-<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
-<script src="site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
-<link href="site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
-<script src="site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
-
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -82,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">TheVault</span>
+    <span class="navbar-title">The Vault</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -92,15 +81,47 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./bioinformatics.html" rel="" target="" aria-current="page">
- <span class="menu-text">Bioinformatics</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./books.html" rel="" target="">
  <span class="menu-text">Books</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./metagenomics.html" rel="" target="">
+ <span class="menu-text">Metagenomics</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./genomics.html" rel="" target="">
+ <span class="menu-text">Genomics</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./amplicons.html" rel="" target="">
+ <span class="menu-text">Amplicons</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./metaproteomics.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Metaproteomics</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./R.html" rel="" target="">
+ <span class="menu-text">R</span></a>
+  </li>  
 </ul>
             <div class="quarto-navbar-tools ms-auto">
+    <a href="https://twitter.com/SaenzJohanS" title="Quarto Twitter" class="quarto-navigation-tool px-1" aria-label="Quarto Twitter"><i class="bi bi-twitter"></i></a>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://github.com/SebasSaenz/thevault">
+            Source Code
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools ms-auto-item" href="https://github.com/SebasSaenz/thevault/issues">
+            Report a Bug
+            </a>
+          </li>
+      </ul>
+    </div>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -110,24 +131,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#metagenomics" id="toc-metagenomics" class="nav-link active" data-scroll-target="#metagenomics">Metagenomics</a></li>
-  <li><a href="#genomics" id="toc-genomics" class="nav-link" data-scroll-target="#genomics">Genomics</a></li>
-  <li><a href="#s-rrna-amplicons" id="toc-s-rrna-amplicons" class="nav-link" data-scroll-target="#s-rrna-amplicons">16S rRNA amplicons</a></li>
-  <li><a href="#metaproteomics" id="toc-metaproteomics" class="nav-link" data-scroll-target="#metaproteomics">Metaproteomics</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Bioinformatics</h1>
+<h1 class="title">Metaproteomics</h1>
 </div>
 
 
@@ -142,27 +154,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="metagenomics" class="level2">
-<h2 class="anchored" data-anchor-id="metagenomics">Metagenomics</h2>
-<div class="cell">
-<div class="cell-output-display">
-
-<div class="datatables html-widget html-fill-item" id="htmlwidget-b96d075bc49eb226885d" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-b96d075bc49eb226885d">{"x":{"filter":"none","vertical":false,"data":[["Blast+","Spades","MEGAHIT","MetaWrap","ComeBin","SeminBin2","MetaBat2","DASTool","dRep","CD-HIT","CRISPRCasTyper","PADLOC","DefenseFinder","Nonpareil","METABOLIC","DRAM","InterProScan","Proka","CheckM2","CheckV","geNomad","iPHOP","Phyloplan","CoverM","bbtols","TrimGalore","Kaiju","GTDB-tk","GVClass","Kraken","Vclust"],["Aligment","Assembly","Assembly","Bining","Bining","Bining","Bining","Bining integration","Clustering","Clustering","CRISPR-Cas annotation","Defence system annotation","Defence system annotation","Diversity","functional annotation","functional annotation","Funtional annotation","Gene annotation","Genome/bin quality","Genome/bin quality","MGEs annotation","Phage-host annotation","Phylogeny","Read mapping","Read quality","Read quality","Taxonomy","Taxonomy","Taxonomy",null,"Clustering"],["It provides a suite of command-line tools to run BLAST. This allows users to perform BLAST searches on their own server without size, volume and database restrictions.","It is a versatile toolkit designed for assembly and analysis of sequencing data. SPAdes is primarily developed for Illumina sequencing data, but can be used for IonTorrent as well.","It is an ultra-fast and memory-efficient NGS assembler. It is optimized for metagenomes, but also works well on generic single genome assembly and single-cell assembly.","It is an easy-to-use metagenomic wrapper suite that accomplishes the core tasks of metagenomic analysis from start to finish: read quality control, assembly, visualization, taxonomic profiling, extracting draft genomes, and functional annotation.","Effective binning of metagenomic contigs using contrastive multi-view representation learning","It is a command tool for metagenomic binning with deep learning, handles both short and long reads.","It is a robust statistical framework for reconstructing genomes from metagenomic data","It is an automated method that integrates the results of a flexible number of binning algorithms to calculate an optimized, non-redundant set of bins from a single assembly","It compares and \"de-replicate\" a genome set by identifying groups of highly similar genomes and choosing the best representative genome for each genome set.","It is a program for clustering biological sequences to reduce sequence redundancy and improve the performance of other sequence analyses.","Detect CRISPR-Cas genes and arrays, and predict the subtype based on both Cas genes and CRISPR repeat sequence.","It is a software tool for identifying antiviral defence systems in prokaryotic genomes.","It is a software tool for identifying antiviral defence systems and anti-defence in prokaryotic genomes and viral genomes.",null,null,null,null,null,"Isolates and MAGs","Virus","Identify viruses and plasmids in sequencing data (isolates, metagenomes, and metatranscriptomes)",null,null,null,null,null,null,null,"Assigns taxonomy to putative giant virus contigs or metagenome assembled genomes",null,"It is an alignment-based tool for fast and accurate calculation of Average Nucleotide Identity (ANI) between complete or metagenomically-assembled viral genomes"],["<a href=\"https://www.ncbi.nlm.nih.gov/books/NBK279690/\">NCBI<\/a>","<a href=\"https://github.com/ablab/spades\">GitHub<\/a>","<a href=\"https://github.com/voutcn/megahit\">GitHub<\/a>","<a href=\"https://github.com/bxlab/metaWRAP\">GitHub<\/a>","<a href=\"https://github.com/ziyewang/COMEBin\">GitHub<\/a>","<a href=\"https://github.com/BigDataBiology/SemiBin\">GitHub<\/a>","<a href=\"https://bitbucket.org/berkeleylab/metabat/src/master/\">Bitbucket<\/a>","<a href=\"https://github.com/cmks/DAS_Tool\">GitHub<\/a>","<a href=\"https://github.com/MrOlm/drep\">GitHub<\/a>","<a href=\"https://github.com/weizhongli/cdhit\">GitHub<\/a>","<a href=\"https://github.com/Russel88/CRISPRCasTyper\">GitHub<\/a>","<a href=\"https://github.com/padlocbio/padloc\">GitHub<\/a>","<a href=\"https://github.com/mdmparis/defense-finder\">GitHub<\/a>",null,null,null,null,"https://github.com/tseemann/prokka","https://github.com/chklovski/CheckM2",null,"https://github.com/apcamargo/genomad",null,null,null,null,"https://github.com/FelixKrueger/TrimGalore",null,null,"https://github.com/NeLLi-team/gvclass",null,"<a href=\"https://github.com/refresh-bio/vclust\">GitHub<\/a>"],["<a href=\"https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-421\">BMC Bioinformatics<\/a>","<a href=\"https://currentprotocols.onlinelibrary.wiley.com/doi/full/10.1002/cpbi.102\">Current Protocols<\/a>","<a href=\"https://academic.oup.com/bioinformatics/article/31/10/1674/177884?login=true\">Bioinformatics<\/a>","<a href=\"https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0541-1\">Microbiome<\/a>","<a href=\"https://www.nature.com/articles/s41467-023-44290-z\">Nature Comunications<\/a>","<a href=\"https://academic.oup.com/bioinformatics/article/39/Supplement_1/i21/7210480\">Bioinformatics<\/a>","<a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC6662567/\">PeerJ<\/a>","<a href=\"https://www.nature.com/articles/s41564-018-0171-1\">Nature Microbiology<\/a>","<a href=\"https://academic.oup.com/ismej/article/11/12/2864/7537826?login=true\">ISME<\/a>","<a href=\"https://academic.oup.com/bioinformatics/article/28/23/3150/192160\">Bioinformatics<\/a>","<a href=\"https://www.liebertpub.com/doi/10.1089/crispr.2020.0059\">The CRISPR journal<\/a>","<a href=\"https://academic.oup.com/nar/article/49/19/10868/6381132?login=true\">Nucleic Acid Research<\/a>","<a href=\"https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae1171/7919512?utm_source=advanceaccess&utm_campaign=nar&utm_medium=email&login=true\">Nature Comunications<\/a>",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"<a href=\"https://www.biorxiv.org/content/10.1101/2024.06.27.601020v1\">BioRxiv<\/a>"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Tool<\/th>\n      <th>Tag<\/th>\n      <th>Description<\/th>\n      <th>Repository<\/th>\n      <th>Paper<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"name":"Tool","targets":0},{"name":"Tag","targets":1},{"name":"Description","targets":2},{"name":"Repository","targets":3},{"name":"Paper","targets":4}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-</section>
-<section id="genomics" class="level2">
-<h2 class="anchored" data-anchor-id="genomics">Genomics</h2>
-</section>
-<section id="s-rrna-amplicons" class="level2">
-<h2 class="anchored" data-anchor-id="s-rrna-amplicons">16S rRNA amplicons</h2>
-</section>
-<section id="metaproteomics" class="level2">
-<h2 class="anchored" data-anchor-id="metaproteomics">Metaproteomics</h2>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -413,6 +406,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Site <a href="https://github.com/SebasSaenz/thevault">developed</a> by <a href="https://sebassaenz.github.io/website/">Johan S. Saenz</a></div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 

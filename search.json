@@ -1,37 +1,16 @@
 [
   {
-    "objectID": "books.html#books-i-read",
-    "href": "books.html#books-i-read",
-    "title": "Books",
-    "section": "Books I read",
-    "text": "Books I read\n\n\n\n\n\n\n\n\nPlots of my read books"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "TheVault",
+    "title": "The Vault",
     "section": "",
-    "text": "The Vault is a repository containing a list of bioinformatic tools and scientific books."
+    "text": "The Vault is a repository containing a list of bioinformatic tools and scientific books. The tools are group by five categories: books, metagenomics, genomics, amplicons, metaproteomics and R."
   },
   {
-    "objectID": "bioinformatics.html#genomics",
-    "href": "bioinformatics.html#genomics",
-    "title": "Bioinformatics",
-    "section": "Genomics",
-    "text": "Genomics"
-  },
-  {
-    "objectID": "bioinformatics.html#s-rrna-amplicons",
-    "href": "bioinformatics.html#s-rrna-amplicons",
-    "title": "Bioinformatics",
-    "section": "16S rRNA amplicons",
-    "text": "16S rRNA amplicons"
-  },
-  {
-    "objectID": "bioinformatics.html#metaproteomics",
-    "href": "bioinformatics.html#metaproteomics",
-    "title": "Bioinformatics",
-    "section": "Metaproteomics",
-    "text": "Metaproteomics"
+    "objectID": "index.html#updates",
+    "href": "index.html#updates",
+    "title": "The Vault",
+    "section": "Updates",
+    "text": "Updates\nAt the moment the website is under construction. I hope to finish it during the next few months.\nLast update r today()"
   }
 ]
