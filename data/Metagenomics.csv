@@ -11,18 +11,18 @@ dRep,Clustering,"It compares and ""de-replicate"" a genome set by identifying gr
 CD-HIT,Clustering,It is a program for clustering biological sequences to reduce sequence redundancy and improve the performance of other sequence analyses.,"<a href=""https://github.com/weizhongli/cdhit"">GitHub</a>","<a href=""https://academic.oup.com/bioinformatics/article/28/23/3150/192160"">Bioinformatics</a>"
 CRISPRCasTyper,CRISPR-Cas annotation,"Detect CRISPR-Cas genes and arrays, and predict the subtype based on both Cas genes and CRISPR repeat sequence.","<a href=""https://github.com/Russel88/CRISPRCasTyper"">GitHub</a>","<a href=""https://www.liebertpub.com/doi/10.1089/crispr.2020.0059"">The CRISPR journal</a>"
 PADLOC,Defence system annotation,It is a software tool for identifying antiviral defence systems in prokaryotic genomes.,"<a href=""https://github.com/padlocbio/padloc"">GitHub</a>","<a href=""https://academic.oup.com/nar/article/49/19/10868/6381132?login=true"">Nucleic Acid Research</a>"
-DefenseFinder,Defence system annotation,It is a software tool for identifying antiviral defence systems and anti-defence in prokaryotic genomes and viral genomes.,"<a href=""https://github.com/mdmparis/defense-finder"">GitHub</a>","<a href=""https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae1171/7919512?utm_source=advanceaccess&utm_campaign=nar&utm_medium=email&login=true"">Nature Comunications</a>"
-Nonpareil,Diversity,,,
-METABOLIC,functional annotation,,,
-DRAM,functional annotation,,,
-InterProScan,Funtional annotation,,,
-Proka,Gene annotation,,https://github.com/tseemann/prokka,
-CheckM2,Genome/bin quality,Isolates and MAGs,https://github.com/chklovski/CheckM2,
-CheckV,Genome/bin quality,Virus,,
-geNomad,MGEs annotation,"Identify viruses and plasmids in sequencing data (isolates, metagenomes, and metatranscriptomes)",https://github.com/apcamargo/genomad,
-iPHOP,Phage-host annotation,,,
-Phyloplan,Phylogeny,,,
-CoverM,Read mapping,,,
+DefenseFinder,Defence system annotation,It is a software tool for identifying antiviral defence systems and anti-defence in prokaryotic genomes and viral genomes.,"<a href=""https://github.com/mdmparis/defense-finder"">GitHub</a>","<a href=""https://www.nature.com/articles/s41467-022-30269-9"">Nature Comunications</a>"
+Nonpareil,Diversity,Estimate average coverage and create Nonpareil curves for metagenomic datasets. Aldso calculates a diversity index.,"<a href=""https://github.com/lmrodriguezr/nonpareil?tab=readme-ov-file"">GitHub</a>","<a href=""https://journals.asm.org/doi/10.1128/msystems.00039-18"">mSystems</a>"
+METABOLIC,Functional annotation,"It enables the prediction of metabolic and biogeochemical functional trait profiles to any given genome datasets. These genome datasets can either be MAGs, SAGs or isolated strains.","<a href=""https://github.com/AnantharamanLab/METABOLIC"">GitHub</a>","<a href=""https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01213-8"">Microbiome</a>"
+DRAM,Functional annotation,it is a tool for annotating metagenomic and genomic assembled data (e.g. scaffolds or contigs) or called genes (e.g. nuclotide or amino acid format),"<a href=""https://github.com/WrightonLabCSU/DRAM/tree/dev"">GitHub</a>","<a href=""https://academic.oup.com/nar/article/48/16/8883/5884738?login=true"">Nucleid Acids Research</a>"
+InterProScan,Funtional annotation,"It is a database which integrates together predictive information about proteins' function from a number of partner resources, giving an overview of the families that a protein belongs to and the domains and sites it contains.","<a href=""https://github.com/ebi-pf-team/interproscan"">GitHub</a>","<a href=""https://academic.oup.com/bioinformatics/article/30/9/1236/237988?login=true"">Bioinformatics</a>"
+Proka,Gene annotation,"It is a software tool to annotate bacterial, archaeal and viral genomes quickly and produce standards-compliant output files.","<a href=""https://github.com/tseemann/prokka"">GitHub</a>","<a href=""https://academic.oup.com/bioinformatics/article/30/14/2068/2390517?login=false"">Bioinformatics</a>"
+CheckM2,Genome/bin quality,It is a tool that uses two distinct machine learning models to predict genome completeness. ,"<a href=""https://github.com/chklovski/CheckM2"">GitHub</a>","<a href=""https://www.nature.com/articles/s41592-023-01940-w"">Nature methods</a>"
+CheckV,Genome/bin quality,"It is a fully automated command-line pipeline for assessing the quality of single-contig viral genomes, including identification of host contamination for integrated proviruses, estimating completeness for genome fragments, and identification of closed genomes.","<a href=""https://bitbucket.org/berkeleylab/checkv/src/master/"">Bitbucket</a>","<a href=""https://www.nature.com/articles/s41587-020-00774-7"">Nature biotechnology</a>"
+geNomad,MGEs annotation,"It is a toll that Identify viruses and plasmids in sequencing data (isolates, metagenomes, and metatranscriptomes)","<a href=""https://github.com/apcamargo/genomad"">GitHub</a>","<a href=""https://www.nature.com/articles/s41587-023-01953-y"">Nature biotechnology</a>"
+iPHOP,Phage-host annotation,It is an automated command-line pipeline for predicting host genus of novel bacteriophages and archaeoviruses based on their genome sequences.,"<a href=""https://bitbucket.org/srouxjgi/iphop/src/main/"">Bitbucket</a>","<a href=""https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002083"">PLOS Biology</a>"
+Phyloplan,Phylogeny,It is an integrated pipeline for large-scale phylogenetic profiling of genomes and metagenomes.,"<a href=""https://github.com/biobakery/phylophlan"">GitHub</a>","<a href=""https://www.nature.com/articles/s41467-020-16366-7"">Nature communications</a>"
+CoverM,Read mapping,"It is a tool that aims to be a configurable, easy to use and fast DNA read coverage and relative abundance calculator focused on metagenomics applications.","<a href=""https://github.com/wwood/CoverM"">GitHub</a>","<a href=""https://arxiv.org/abs/2501.11217"">arxiv</a>"
 bbtols,Read quality,,,
 TrimGalore,Read quality,,https://github.com/FelixKrueger/TrimGalore,
 Kaiju,Taxonomy,,,
@@ -30,3 +30,10 @@ GTDB-tk,Taxonomy,,,
 GVClass,Taxonomy,Assigns taxonomy to putative giant virus contigs or metagenome assembled genomes,https://github.com/NeLLi-team/gvclass,
 Kraken,,,,
 Vclust,Clustering,It is an alignment-based tool for fast and accurate calculation of Average Nucleotide Identity (ANI) between complete or metagenomically-assembled viral genomes,"<a href=""https://github.com/refresh-bio/vclust"">GitHub</a>","<a href=""https://www.biorxiv.org/content/10.1101/2024.06.27.601020v1"">BioRxiv</a>"
+MMETHANE,,,,
+MetaPhlAn 4.0,Taxonomy,"It is a computational tool for profiling the composition of microbial communities (Bacteria, Archaea and Eukaryotes) from metagenomic shotgun sequencing data (i.e. not 16S) with species-level.",,
+PathwayPilot,,,,
+vClassifier,,,,
+MaAsLin 3,,,,
+FastQC,Read quality,,,
+QUAST,Assembly,,,

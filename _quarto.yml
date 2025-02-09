@@ -3,17 +3,35 @@ project:
   type: website
 
 website:
-  title: "TheVault"
+  title: "The Vault"
   navbar:
     left:
-      - bioinformatics.qmd
       - books.qmd
-
+      - metagenomics.qmd
+      - genomics.qmd
+      - amplicons.qmd
+      - metaproteomics.qmd
+      - R.qmd
+    tools:
+      - icon: twitter
+        href: https://twitter.com/SaenzJohanS
+        text: Quarto Twitter
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://github.com/SebasSaenz/thevault
+          - text: Report a Bug
+            url:  https://github.com/SebasSaenz/thevault/issues
+  page-footer:
+    left: |
+      Site [developed](https://github.com/SebasSaenz/thevault) 
+      by [Johan S. Saenz](https://sebassaenz.github.io/website/)
 format:
   html:
     theme: minty
     css: styles.css
     toc: true
+
 
 editor: visual
 

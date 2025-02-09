@@ -1,7 +1,13 @@
 ---
-title: "TheVault"
+title: "The Vault"
 ---
 
-The Vault is a repository containing a list of bioinformatic tools and scientific books.
+The Vault is a repository containing a list of bioinformatic tools and scientific books. The tools are group by five categories: books, metagenomics, genomics, amplicons, metaproteomics and R.
 
 ![](image/vault.webp){fig-align="center" width="300"}
+
+## Updates
+
+At the moment the website is under construction. I hope to finish it during the next few months.
+
+Last update `r today()`

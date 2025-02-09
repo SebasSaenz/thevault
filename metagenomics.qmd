@@ -1,12 +1,12 @@
 ---
-title: "Bioinformatics"
+title: "Metagenomics"
 format: 
   html:
     page-layout: full
     link-external-newwindow: true
 ---
 
-## Metagenomics
+# 
 
 ```{r}
 #| echo: false
@@ -21,8 +21,4 @@ datatable(metagenomics,
           rownames = FALSE)
 ```
 
-## Genomics
-
-## 16S rRNA amplicons
-
-## Metaproteomics
+## 

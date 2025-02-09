@@ -1,0 +1,9 @@
+---
+title: "Genomics"
+format: 
+  html:
+    page-layout: full
+    link-external-newwindow: true
+---
+
+# 
