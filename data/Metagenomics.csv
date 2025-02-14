@@ -24,16 +24,20 @@ iPHOP,Phage-host annotation,It is an automated command-line pipeline for predict
 Phyloplan,Phylogeny,It is an integrated pipeline for large-scale phylogenetic profiling of genomes and metagenomes.,"<a href=""https://github.com/biobakery/phylophlan"">GitHub</a>","<a href=""https://www.nature.com/articles/s41467-020-16366-7"">Nature communications</a>"
 CoverM,Read mapping,"It is a tool that aims to be a configurable, easy to use and fast DNA read coverage and relative abundance calculator focused on metagenomics applications.","<a href=""https://github.com/wwood/CoverM"">GitHub</a>","<a href=""https://arxiv.org/abs/2501.11217"">arxiv</a>"
 bbtols,Read quality,,,
-TrimGalore,Read quality,,https://github.com/FelixKrueger/TrimGalore,
-Kaiju,Taxonomy,,,
-GTDB-tk,Taxonomy,,,
-GVClass,Taxonomy,Assigns taxonomy to putative giant virus contigs or metagenome assembled genomes,https://github.com/NeLLi-team/gvclass,
-Kraken,,,,
+Trim Galore,Read quality,"It is a wrapper around Cutadapt and FastQC to consistently apply adapter and quality trimming to FastQ files, with extra functionality for RRBS data.","<a href=""https://github.com/FelixKrueger/TrimGalore"">GitHub</a>",
+Kaiju,Taxonomy,"It is a program for the taxonomic classification of high-throughput sequencing reads, e.g., Illumina or Roche/454, from whole-genome sequencing of metagenomic DNA","<a href=""https://github.com/bioinformatics-centre/kaiju"">GitHub</a>","<a href=""https://www.nature.com/articles/ncomms11257"">Nature comunications</a>"
+GTDB-tk,Taxonomy,It is a software toolkit for assigning objective taxonomic classifications to bacterial and archaeal genomes based on the Genome Database Taxonomy (GTDB).,"<a href=""https://github.com/Ecogenomics/GTDBTk"">GitHub</a>","<a href=""https://academic.oup.com/bioinformatics/article/38/23/5315/6758240?login=false&utm_source=advanceaccess&utm_campaign=bioinformatics&utm_medium=email"">Bioinformatics</a>"
+GVClass,Taxonomy,Assigns taxonomy to putative giant virus contigs or metagenome assembled genomes,"<a href=""https://github.com/NeLLi-team/gvclass"">GitHub</a>","<a href=""https://www.nature.com/articles/s44298-024-00069-7"">npj viruses</a>"
+Kraken,,It is a taxonomic sequence classification system,"<a href=""https://github.com/DerrickWood/kraken2"">GitHub</a>","<a href=""https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1891-0"">Genome Biology</a>"
 Vclust,Clustering,It is an alignment-based tool for fast and accurate calculation of Average Nucleotide Identity (ANI) between complete or metagenomically-assembled viral genomes,"<a href=""https://github.com/refresh-bio/vclust"">GitHub</a>","<a href=""https://www.biorxiv.org/content/10.1101/2024.06.27.601020v1"">BioRxiv</a>"
-MMETHANE,,,,
-MetaPhlAn 4.0,Taxonomy,"It is a computational tool for profiling the composition of microbial communities (Bacteria, Archaea and Eukaryotes) from metagenomic shotgun sequencing data (i.e. not 16S) with species-level.",,
-PathwayPilot,,,,
-vClassifier,,,,
-MaAsLin 3,,,,
-FastQC,Read quality,,,
-QUAST,Assembly,,,
+MMETHANE,Modeling,It is a computational tool that makes interpretable predictions of a binary outcome from joint metabolomics and microbial sequencing (16S rRNA amplicon analysis or metagenomics) profiles,"<a href=""https://github.com/gerberlab/mmethane"">GitHub</a>","<a href=""https://www.biorxiv.org/content/10.1101/2024.12.13.628441v1"">BioRxiv</a>"
+MetaPhlAn 4.0,Taxonomy,"It is a computational tool for species-level microbial profiling (bacteria, archaea, eukaryotes, and viruses) from metagenomic shotgun sequencing data.","<a href=""https://github.com/biobakery/MetaPhlAn"">GitHub</a>","<a href=""https://www.nature.com/articles/s41587-023-01688-w"">Nature biotechnology</a>"
+vClassifier,Taxonomy,This tool streamlines and standardizes the taxonomic categorization of prokaryotic viral genomes,"<a href=""https://github.com/AnantharamanLab/vClassifier"">GitHub</a>",
+FastQC,Read quality,It is a program designed to spot potential problems in high througput sequencing datasets. It runs a set of analyses on one or more raw sequence files in fastq or bam format and produces a report which summarises the results.,"<a href=""https://github.com/s-andrews/FastQC"">GitHub</a>",
+QUAST,Assembly,"It evaluates genome/metagenome assemblies by computing various metrics. The current QUAST toolkit includes the general QUAST tool for genome assemblies, MetaQUAST, the extension for metagenomic datasets, QUAST-LG, the extension for large genomes.","<a href=""https://github.com/ablab/quast"">GitHub</a>","<a href=""https://academic.oup.com/nar/article/51/W1/W601/7167303"">Nucleid Acids Research</a>"
+carveMe,Modeling,It is a python-based tool for genome-scale metabolic model reconstruction.,"<a href=""https://github.com/cdanielmachado/carveme"">GitHub</a>","<a href=""https://academic.oup.com/nar/article/46/15/7542/5042022?login=false"">Nucleid Acids Research</a>"
+CompareM2,Functional annotation,It is a genomes-to-report pipeline. It accepts prokaryotic (bacterial and archaeal) genomic assemblies and compares them in many different ways.,"<a href=""https://github.com/cmkobel/CompareM2"">GitHub</a>","<a href=""https://www.biorxiv.org/content/10.1101/2024.07.12.603264v2"">BioRxiv</a>"
+Pharokka,Gene annotation,It is a rapid standardised annotation tool for bacteriophage genomes and metagenomes.,"<a href=""https://github.com/gbouras13/pharokka"">GitHub</a>","<a href=""https://academic.oup.com/bioinformatics/article/39/1/btac776/6858464"">Bioinformatics</a>"
+Phold,Functional annotation,It is a sensitive annotation tool for bacteriophage genomes and metagenomes using protein structural homology.,"<a href=""https://github.com/gbouras13/phold"">GitHub</a>",
+BakKta,Gene annotation,It is a tool for the rapid & standardized annotation of bacterial genomes and plasmids from both isolates and MAGs,"<a href=""https://github.com/oschwengers/bakta"">GitHub</a>","<a href=""https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000685"">Microbial Genomics</a>"
+megaDNA,,,,
