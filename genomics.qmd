@@ -6,4 +6,15 @@ format:
     link-external-newwindow: true
 ---
 
-# 
+```{r}
+#| echo: false
+#| warning: false
+
+library(tidyverse)
+library(DT)
+
+genomics <- read_csv("data/genomics.csv")
+datatable(genomics,
+          escape = FALSE,
+          rownames = FALSE)
+```
