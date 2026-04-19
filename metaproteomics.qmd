@@ -5,3 +5,17 @@ format:
     page-layout: full
     link-external-newwindow: true
 ---
+
+```{r}
+
+#| echo: false
+#| warning: false
+
+library(tidyverse)
+library(DT)
+
+metagenomics <- read_csv("data/Metaproteomics.csv")
+datatable(metagenomics,
+          escape = FALSE,
+          rownames = FALSE)
+```
